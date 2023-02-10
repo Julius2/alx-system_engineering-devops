@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l -n -a | awk '{print $3 " " $4 " " $1 " " $9}'
+ls -l --numeric-uid-gid -a
